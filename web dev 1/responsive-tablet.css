@@ -1,0 +1,91 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+  .feature-cards-wrapper {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .feature-card {
+    flex: 1 1 30%; /* Grow and shrink evenly */
+    max-width: 300px;
+  }
+
+  .nav-arrow {
+    position: relative;
+    top: auto;
+    transform: none;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-left: -30px; /* pushes everything else right */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav ul li a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1c1c1c;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .plus-icon {
+    font-size: 0.8rem;
+    color: #888;
+  }
+
+  .menu-icon {
+    display: none; /* hide menu icon on tablet */
+  }
+
+  .btn-get-started {
+    background: #5c4eff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .arrow-circle {
+    background: #1c1c1c;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
